@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+	<head>
+		<link rel="icon" type="image/jpg" href="images/title logo.jpg" />
+		<title>Lakers Fan Page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="css/settings.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/valid.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="banner_div">
+				<a href="index.html"><img id="banner" src="images/newBanner.png" alt="Banner" /></a>
+			</div>
+			
+			<div id="nav">
+				<a class="boxes" id="stories" href="stories.html" onmouseover="mouseover(this)" onmouseOut="mouseout(this)">
+					<img id="nav_stories" class="nav_img" src="images/news.png" alt="News and stories"/>News &amp; Stories	
+				</a>
+				<a class="boxes" id="schedule" href="schedule.html" onmouseover="mouseover(this)" onmouseOut="mouseout(this)">
+					<img id="nav_schedule" class="nav_img" src="images/schedule.png" alt="Schedule"/>Game schedule
+				</a>
+				<a class="boxes" id="stats" href="stats.html" onmouseover="mouseover(this)" onmouseOut="mouseout(this)">
+					<img id="nav_stats" class="nav_img" src="images/stats.png" alt="Statistics"/>Statistics
+				</a>
+				
+				<a class="link" id="contact" href="contact_us.html">Contact Us</a>
+				<a class="link" id="credits" href="credits.html">Credits</a>
+				
+				<div id="social_media">
+					<iframe id="facebook" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com&width=121&layout=button&action=like&size=large&show_faces=false&share=true&height=65&appId" width="121" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+					</iframe>
+				</div>
+			</div>
+			
+			<div id="content">
+				<h1>Sign Up for Email News Update</h1>
+				
+				<p class="form">Enter your email address below and we will deliver news straight into your inbox!</p>
+				<br />
+				
+				<div class="form">
+					<form name="signup" onsubmit="return validate_signup(this.form)" method="post"  action="http://www.MorVid.com/141FormAction.php">
+						<p class="form_text">Email*</p><input id="email" type="text" name="email" />
+						<br />
+						<br />
+						<input class="button" type="submit" value="Submit" />
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+		
+</html>
