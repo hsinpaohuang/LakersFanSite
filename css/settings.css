@@ -1,0 +1,320 @@
+body
+{
+	position: absolute;
+	background: #552583;
+	background-image: url("../images/Banner_background.jpg");
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+#banner
+{
+	position: fixed;
+	margin: auto;
+	left: 50%;
+	margin-left: -184.5px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a
+{
+	color: #fdb927;
+}
+
+#nav
+{
+	position: absolute;
+	left: 0px;
+  	top: 150px;
+  	width: 240px;
+  	height: 600px;
+	text-decoration: none;
+}
+
+.boxes
+{
+	color: #552583;
+	display: block;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 140px;
+  	background-color: white;
+	border-radius: 5px;
+	margin: 0;
+	text-align: center;
+	font-size: 25px;
+  	font-family: "Calibri", Sans-serif;
+  	line-height: 1;
+	vertical-align: bottom;
+	clear: left;
+}
+
+.boxes_mouseover
+{
+	color: #FDB927;
+	display: block;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 140px;
+  	background-color: #202020;
+	border-radius: 5px;
+	margin: 0;
+	text-align: center;
+	font-size: 25px;
+  	font-family: "Calibri", Sans-serif;
+  	line-height: 1;
+	vertical-align: bottom;
+}
+
+#schedule
+{
+	postion: relative;
+	top: 150px;
+}
+
+#stats
+{
+	position: absolute;
+	top: 300px;
+}
+
+#contact
+{
+	position: relative;
+	top: 460px;
+	padding: 5px;
+	margin-left: 35px;
+}
+
+#credits
+{
+	position: relative;
+	top: 470px;
+	padding: 5px;
+	margin-left: 35px;
+}
+
+#social_media
+{
+	position: relative;
+	top: 500px;
+}
+
+#facebook
+{
+	margin-left: 35px;
+}
+
+.nav_img
+{
+	margin: auto;
+	padding: 10px 20px 10px 20px;
+	width: 160px;
+	height: 90px;
+}
+
+#content
+{
+	position: absolute;
+  	left: 240px;
+  	top: 150px;
+  	width: 1100px;
+  	height: 600px;
+	background: #202020;
+	overflow: scroll;
+}
+
+.content_img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin: 30px;
+}
+
+#home_content
+{
+	position: static;
+	color: #F5F5F5;
+	margin: 20px;
+}
+
+h1
+{
+	font-family: "Arial", "Sans-serif";
+	text-align: center;
+	color: #F5F5F5;
+}
+
+#twitter_feed
+{
+	margin: 50px;
+}
+
+p
+{
+	color: whitesmoke;
+}
+
+h3
+{
+	color: whitesmoke;
+	font: 30pt;
+}
+
+.link
+{
+	margin: 0;
+	text-align: center;
+	font-size: 25px;
+  	font-family: "Calibri", Sans-serif;
+  	line-height: 1;
+	vertical-align: bottom;
+}
+
+.game
+{
+	color: whitesmoke;
+	margin: 25px;
+}
+
+#LAL
+{
+	color: #FDB927
+}
+
+.win
+{
+	color: lime;
+}
+
+.lose
+{
+	color: red;
+}
+
+#signup_link
+{
+	margin: 20px;
+}
+
+#video_page
+{
+	margin: 25px;
+}
+
+#choose
+{
+	margin: 100px;
+}
+
+#player_stat
+{
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+
+#team_stat
+{
+	position: relative;
+	top: -90px;
+	left: 500px;
+}
+
+table 
+{
+	color: whitesmoke;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin: 50px;
+	text-align: center;
+}
+
+td, th 
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th
+{
+	color: #FDB927;
+}
+
+#explain
+{
+	color: whitesmoke;
+	margin: 50px;
+	line-height: 2;
+}
+
+.abbreiv
+{
+	font-weight: bold;
+}
+
+#abb_exp
+{
+	color: #FDB927;
+}
+
+h4
+{
+	color: whitesmoke;
+}
+
+.form
+{
+	margin: 30px;
+	color: #FDB927;
+}
+
+.form_text
+{
+	color: #FDB927;
+}
+
+.button
+{
+	background-color: #FDB927;
+	border: 0px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	padding: 6px 8px;
+	
+}
+
+.stat_link
+{
+	margin: 50px;
+	margin-top: 0px;
+}
+
+.credits_link
+{
+	line-height: 1.5;
+}
+
+.schedule_text
+{
+	font-size: 15pt;
+	line-height: 1;
+}
+
+#next_game
+{
+	line-height: 1.5;
+}
